@@ -1,19 +1,24 @@
 body{
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 h1{
     font-size: 50px;
+    margin: 0px;
 }
 .topside{
-    display: flex;
     color: rgb(105, 93, 93);
-    padding: 50px;
+    padding: 20px;
     
+}
+.flexcontent{
+    display: flex;
 }
 .color{
     color: orange;
 }
 .anchor{
+    color: white;
     text-decoration: none;
     background-color: orangered;
     padding: 15px;
@@ -27,28 +32,103 @@ h1{
     padding: 10px;
     padding-left: 4%;
     padding-top: 30px;
+    margin-top: 12%;
 }
 .midelside{
     color: rgb(105, 93, 93);
-    display: flex;
-    padding: 120px;
+    padding: 125px;
     background-image: url(images/shapes/7.png);
-    background-repeat: none;
+    background-repeat: no-repeat;
+    margin-top: 100px;
 }
 .midelside img{
-    width: 95%;
+    width: 91%;
 }
 #mideltext{
-    padding-left: 100px;
+    margin-top: 8%;
+    padding-left: 150px;
 }
-#uppertext{
+.downside{
+    margin-top: 5%;
+}
+#downtext{
     width: 700px;
     text-align: center;
     margin-left: 24%;
     color: rgb(105, 93, 93);
 }
-.upperside1{
-    width: 30%;
-    padding-left: 3%;
-    box-shadow: 10px 10px 25px gray;
+.box{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.downside1{
+    width: 60%;
+    padding: 8px;
+    box-shadow: 1px 1px 20px 1px gray;
+    border-radius: 20px;
+    margin: 2%;
+}
+.downside1 img{
+    width: 95%;
+    height: auto;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+#downside2{
+    width: 60%;
+    padding: 8px;
+    box-shadow: 1px 1px 20px 1px gray;
+    border-radius: 20px;
+    margin: 2%;
+}
+#downside2 img{
+    width: 95%;
+    height: auto;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+#downside3{
+    width: 60%;
+    padding: 8px;
+    box-shadow: 1px 1px 20px 1px gray;
+    border-radius: 20px;
+    margin: 2%;
+}
+#downside3 img{
+    width: 95%;
+    height: auto;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+#follower{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 15%;
+    display: flex;
+    width: 800px;
+    padding: 40px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 1px 1px 20px 1px gray;
+}
+#ab{
+    margin-right: 150px;
+}
+#cd{
+    margin-right: 150px;
+}
+#downsld{
+    height: 150px;
+    background-color: black;
+    text-align: center;
+    margin-top: 100px;
+}
+.m{
+    color: gray;
+}
+#pera{
+    color: white;
+}
+#last h3{
+    padding-top: 25px;
 }

@@ -1,3 +1,54 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.topside{
+    display: flex;
+    color: rgb(105, 93, 93);
+    padding: 50px;
+    
+}
+.color{
+    color: orange;
+}
+.anchor{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 15px;
+    border-radius: 20px;
+}
+.anchor:hover{
+    background-color: orange;
+}
+.toptext{
+    width: 100%;
+    padding: 10px;
+    padding-left: 4%;
+    padding-top: 30px;
+}
+.midelside{
+    color: rgb(105, 93, 93);
+    display: flex;
+    padding: 120px;
+    background-image: url(images/shapes/7.png);
+    background-repeat: none;
+}
+.midelside img{
+    width: 95%;
+}
+#mideltext{
+    padding-left: 100px;
+}
+#uppertext{
+    width: 700px;
+    text-align: center;
+    margin-left: 24%;
+    color: rgb(105, 93, 93);
+}
+.upperside1{
+    width: 30%;
+    padding-left: 3%;
+    box-shadow: 10px 10px 25px gray;
 }

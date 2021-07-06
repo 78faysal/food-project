@@ -20,12 +20,12 @@ h1{
 .anchor{
     color: white;
     text-decoration: none;
-    background-color: orangered;
+    background-image: linear-gradient(orange, orangered);
     padding: 15px;
     border-radius: 20px;
 }
 .anchor:hover{
-    background-color: orange;
+    background-color: red;
 }
 .toptext{
     width: 100%;
